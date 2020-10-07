@@ -2,6 +2,6 @@
 .ico
 /CP/bin/
 /CP/.settings/
-/CP/.classpath
-/CP/.project
+.classpath
+.project
 .ini
