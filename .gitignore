@@ -1,2 +1,6 @@
 /.metadata/
 .ico
+/CP/bin/
+/CP/.settings/
+.classpath
+.project
