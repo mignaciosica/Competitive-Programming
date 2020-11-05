@@ -7,21 +7,21 @@ package leetCode;
  */
 
 class Solution {
-    public int maxSubarraySumCircular(int[] A) {
-        int index = 0, indexAux = 0;
-        int sum = 0, max = A[0];
-        
-        while(index < A.length){
-            sum = A[(index + indexAux) % A.length];
-            max = Math.max(max, sum);
-            while(sum > 0 && indexAux < A.length){
-                max = Math.max(max, sum);
-                sum += A[(index + ++indexAux) % A.length];
-            }
-            index++;
-            indexAux = 0;
-        }
-        
-        return max;
-    }
+	public int maxSubarraySumCircular(int[] A) {
+		int index = 0, indexAux = 0;
+		int sum = 0, max = A[0];
+
+		while (index < A.length) {
+			sum = A[(index + indexAux) % A.length];
+			max = Math.max(max, sum);
+			while (sum > 0 && indexAux < A.length) {
+				max = Math.max(max, sum);
+				sum += A[(index + ++indexAux) % A.length];
+			}
+			index++;
+			indexAux = 0;
+		}
+
+		return max;
+	}
 }

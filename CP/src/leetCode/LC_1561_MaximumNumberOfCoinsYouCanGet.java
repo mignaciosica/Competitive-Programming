@@ -19,11 +19,11 @@ public class LC_1561_MaximumNumberOfCoinsYouCanGet {
 	public int maxCoins(int[] piles) {
 		Arrays.sort(piles);
 		int result = 0;
-		int index = piles.length-2;
+		int index = piles.length - 2;
 
-		while(index >= piles.length/3){
-		    result += piles[index];
-		    index -= 2;
+		while (index >= piles.length / 3) {
+			result += piles[index];
+			index -= 2;
 		}
 
 		return result;
