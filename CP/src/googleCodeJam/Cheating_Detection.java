@@ -16,6 +16,8 @@ public class Cheating_Detection {
 
   private void solve() {
       int count = 1;
+    //int[] q = new int[10000];
+      
 	  while(count <= 100) {
 	      line = sc.nextLine();
 	
@@ -23,6 +25,7 @@ public class Cheating_Detection {
 	      for(int i = 0; i < line.length(); i++) {
 	    	  if(line.charAt(i) == '1') {
 	    		  ones++;
+	    		//q[i]++;
 	    	  }
 	      }
 
