@@ -5,3 +5,10 @@ Thehoth-Seo-Seo-web-code.ico
 .classpath
 .project
 desktop.ini
+CP_CS/bin
+CP_CS/.idea
+CP_CS/obj
+CP_CS/CP_CS.csproj
+CP_CS/CP_CS.sln
+CP_CS/CP_CS.sln.DotSettings.user
+CP/.idea
