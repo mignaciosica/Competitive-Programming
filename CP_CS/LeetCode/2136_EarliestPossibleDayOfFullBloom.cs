@@ -54,7 +54,7 @@ public class EarliestPossibleDayOfFullBloom {
     }
     
     [Test]
-    public void _1494Test5()
+    public void _1494Test()
     {
         int[] arr1 =
         {
