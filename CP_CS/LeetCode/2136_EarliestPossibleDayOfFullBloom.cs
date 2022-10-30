@@ -8,7 +8,7 @@ public class EarliestPossibleDayOfFullBloom {
         int n = plantTime.Length;
         int days = 0;
 
-        PriorityQueue<int, int> queue = new PriorityQueue<int, int>();
+        PriorityQueue<int, int> queue = new();
         List<int> growing = new();
 
         for (int i = 0; i < n; i++)
